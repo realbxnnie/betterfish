@@ -1,0 +1,7 @@
+set_color green
+if fish_is_root_user
+    set bash_prompt "# "(set_color normal)
+else
+    set bash_prompt "\$ "(set_color normal)
+end
+echo (whoami)@(hostname) (set_color blue)(prompt_pwd)$bash_prompt
