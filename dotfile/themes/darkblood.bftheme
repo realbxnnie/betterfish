@@ -1,3 +1,3 @@
-   echo -n (set_color red)"┌["(set_color normal)(whoami)(set_color red)@(set_color normal)(hostname)(set_color red)](set_color normal) (set_color red)"[" (set_color normal)(tty) (set_color red)] (set_color red)
+   echo -n (set_color red)"┌["(set_color normal)(whoami)(set_color red)@(set_color normal)(hostname)(set_color red)](set_color normal) (set_color red)"["(set_color normal)(tty)(set_color red)] (set_color red)
    echo
    echo -n (set_color red)"└["(set_color normal)(prompt_pwd)(set_color red)"]"">" (set_color normal)
