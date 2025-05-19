@@ -16,4 +16,4 @@ sudo bash -c 'sudo touch /root/.config/fish/bftheme.fish'
 sudo bash -c 'echo "set -g bfish_default_theme" /root/.betterfish/themes/bash.bftheme > /root/.config/fish/bftheme.fish'
 
 echo "Successfully installed betterfish! Restarting the shell..."
-exec fish
+sudo bash -c 'exec fish'
